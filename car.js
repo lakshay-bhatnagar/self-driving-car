@@ -130,7 +130,7 @@ class Car{
     }
 
     draw(ctx,color){
-        if(this.damaged){
+        if(this.damaged){ //comment
             ctx.fillStyle="gray";
         }else{
             ctx.fillStyle=color;
